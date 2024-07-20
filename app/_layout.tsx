@@ -9,7 +9,9 @@ export default function RootLayout() {
 		'outfit-semibold': require("../assets/fonts/Outfit-SemiBold.ttf"),
  })
   return (
-    <Stack>
+		<Stack screenOptions={{
+			headerShown: false
+		}}>
       <Stack.Screen name="index" />
     </Stack>
   );
